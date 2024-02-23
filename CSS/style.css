@@ -1,3 +1,12 @@
+.logo{
+    width: auto;
+    height: 120px;
+}
 
+.bg-nav{
+    background-color:white;
+}
 
-
+.nav-link{
+    font-size: xx-large;
+}
