@@ -4,9 +4,21 @@
 }
 
 .bg-nav{
-    background-color:white;
+    background-color:black;
 }
 
 .nav-link{
     font-size: xx-large;
+}
+
+samp:hover{
+    color: red;
+}
+
+.logo:hover{
+    transform: scale(1.2);
+}
+
+.bg-boton{
+    background-color: white;
 }
