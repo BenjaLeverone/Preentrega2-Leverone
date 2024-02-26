@@ -22,3 +22,93 @@ samp:hover{
 .bg-boton{
     background-color: white;
 }
+
+.bg-boton:hover{
+    background-color: white;
+}
+
+.boton-articulo{
+    background-color: red;
+    border: 2px solid red;
+    color: black;
+}
+
+.boton-articulo:hover{
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+}
+
+body{
+    background-color: grey;
+}
+
+.body-tarjeta{
+    background-color: gray;
+    border: grey;
+}
+
+
+
+
+.cuerpo-contacto {
+    font-family: 'Nunito', sans-serif;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+form {
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgba(0, 0 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+}
+
+.imput-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.card{
+    height: 370px;
+}
+
+.boton-a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sas{
+    margin-bottom: 250px;
+    margin-top: 100px;
+    background-color: grey;
+}
+
+
+.botones-redes:hover{
+    color: red;
+}
+
+
+.titulo-f{
+    color: red;
+    font-weight: bold;
+}
+
+.sap{
+    margin-top: 50px;
+    color: black;
+    font-weight: bold;
+}
+.sac{
+    margin-bottom: 300px;
+}
+
+.fot-p{
+    text-decoration: none;
+}
