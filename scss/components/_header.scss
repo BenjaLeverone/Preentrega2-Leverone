@@ -1,0 +1,50 @@
+.logo{
+    width: auto;
+    height: 120px;
+
+    &:hover{
+        transform: scale(1.2);
+        transition: 2s;
+    }
+}
+
+.bg-nav{
+    background-color:$color-bg-header;
+}
+
+.nav-link{
+    font-size: xx-large;
+}
+
+samp:hover{
+    color: red;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: 1s;
+}
+
+
+
+.bg-boton{
+    background-color: white;
+
+    &:hover{
+        background-color: white;
+    }
+    
+}
+
+
+
+.carrusel {
+    object-fit: cover;
+    width: 200%;
+    height: 300px;
+
+}
+
+
+.busqueda{
+    width: 100px;
+    text-align: start;
+}

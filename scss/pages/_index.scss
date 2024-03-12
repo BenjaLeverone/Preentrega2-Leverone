@@ -1,0 +1,57 @@
+.boton-articulo{
+    background-color: $color-btn-arts;
+    border: 2px solid red;
+    color: black;
+
+    &:hover{
+        background-color: white;
+        color: red;
+        border: 2px solid red;
+    }
+    
+}
+
+
+body{
+    background-color: $color-bg;
+}
+
+.body-tarjeta{
+    background-color: gray;
+    border: grey;
+}
+
+
+.card{
+    height: 370px;
+}
+
+
+.boton-a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container-arts{
+    margin-bottom: 250px;
+    margin-top: 100px;
+    background-color: grey;
+}
+
+
+
+
+.text-art{
+    margin-top: 50px;
+    color: black;
+    font-weight: bold;
+}
+
+
+.art-1{
+    border: 5px solid black;
+    height: 376px;
+    width: 288px;
+}
