@@ -16,13 +16,17 @@
     font-size: xx-large;
 }
 
-samp:hover{
+samp{
+    font-family: "Nunito", sans-serif;
+
+
+    &:hover{
     color: red;
     margin-left: 20px;
     margin-right: 20px;
     transition: 1s;
 }
-
+}
 
 
 .bg-boton{
@@ -47,4 +51,17 @@ samp:hover{
 .busqueda{
     width: 100px;
     text-align: start;
+}
+
+.btn-bus{
+    background-color: black;
+    border: 2px solid red;
+    color: white;
+
+    &:hover{
+        background-color: red;
+        color: white;
+        border: 2px solid red;
+    }
+    
 }

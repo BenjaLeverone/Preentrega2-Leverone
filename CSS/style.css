@@ -126,6 +126,9 @@
   font-size: xx-large;
 }
 
+samp {
+  font-family: "Nunito", sans-serif;
+}
 samp:hover {
   color: red;
   margin-left: 20px;
@@ -149,6 +152,17 @@ samp:hover {
 .busqueda {
   width: 100px;
   text-align: start;
+}
+
+.btn-bus {
+  background-color: black;
+  border: 2px solid red;
+  color: white;
+}
+.btn-bus:hover {
+  background-color: red;
+  color: white;
+  border: 2px solid red;
 }
 
 .boton-articulo {
@@ -218,6 +232,10 @@ form {
   flex-direction: column;
   text-align: left;
   margin-bottom: 300px;
+}
+
+* {
+  font-family: "Nunito", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
